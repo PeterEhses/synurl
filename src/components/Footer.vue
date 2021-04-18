@@ -1,6 +1,6 @@
 <template>
   <footer>
-      <p>Made with ↯ by <a href="www.peter-ehses.de">Peter Ehses</a>.</p>
+      <p>Made with ↭ by <a href="www.peter-ehses.de">Peter Ehses</a>.</p>
       <p>Thanks for the data to <a href="https://www.datamuse.com/">datamuse</a>.</p>
       <p>Something not working? Probably. Shoot me a bug report or fix it yourself on <a href="https://github.com/PeterEhses/synurl">GitHub</a>!</p>
   </footer>
