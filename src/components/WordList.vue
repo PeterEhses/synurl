@@ -57,8 +57,11 @@ document.documentElement.style.setProperty('--num-rows', Math.ceil(this.sortedWo
   --grid-startval: calc(2 + var(--head-height) + var(--search-height));
   grid-row-start: var(--grid-startval);
   grid-row-end: Max(calc(var(--grid-startval) + var(--num-rows) - 2), var(--grid-startval));// Max(calc(var(--grid-startval) + var(--num-rows)), calc(6 + var(--grid-startval))); // use css case-insensitive to calm SASS
-  height: 100%;
+  height: Max(auto, 100%);
   table{
+      position: relative;
+      margin-left: 50%;
+        transform: translateX(-50%);
       width: 100%;
       border: none;
       border-collapse: collapse;

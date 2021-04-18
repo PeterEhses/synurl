@@ -140,7 +140,7 @@ export default {
 .grid {
   display: grid;
   grid-template-columns: repeat(var(--nr-of-grid-colums), minmax(0, 1fr));
-  grid-auto-rows: var(--grid-row-height);
+  grid-auto-rows: minmax(max-content, var(--grid-row-height));
   grid-gap: var(--grid-gutter);
 }
 

@@ -69,7 +69,7 @@ export default {
     //display: inline-block;
     padding: 0 0.75rem 0 0;
   }
-  background-color: var(--background-highlight);
+//   background-color: var(--background-highlight);
   &:hover {
     background-color: var(--background);
   }
