@@ -1,18 +1,28 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home softpage grid">
+    <v-header/>
+    <WordSearch placeholder="Search . . ."/>
+    <WordList/>
+    <v-footer/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import WordSearch from '@/components/WordSearch.vue'
+import WordList from '@/components/WordList.vue'
+import vHeader from '@/components/Header.vue'
+import vFooter from "@/components/Footer.vue"
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    WordSearch,
+    WordList,
+    "v-header": vHeader,
+    'v-footer': vFooter
   }
 }
 </script>
+
+<style lang="scss">
+</style>
