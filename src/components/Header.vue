@@ -4,7 +4,7 @@
           <!-- funky-na.me -->
           like-th.at
       </h1>
-      <h2>generate funky urls that use their <abbr title="top levle domain">tld</abbr> as part of a word, just like that ↑</h2>
+      <h2>generate funky urls that use their <abbr title="top level domain">tld</abbr> as part of a word, just like that ↑</h2>
   </header>
 </template>
 
